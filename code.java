@@ -3,3 +3,19 @@ public class World {
         
     }
 }
+
+public class Earth {
+    private ArrayList<Continent> continents;
+    
+    public Earth(continents){
+        this.continents = continents;
+    }
+    
+    public getContinents(){
+        return this.continents;
+    }
+}
+
+public class Continent {
+    
+}
