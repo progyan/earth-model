@@ -9,13 +9,10 @@ public class Human {
     }
 
     public String getName(){
-        if(!this.died)
-            return this.name;
-        else
-            return null;
+        return this.name;
     }
-
-    public void die(){
-         this.died = true;
+    
+    public Human mother(){
+        return new Human("Human");
     }
 }
